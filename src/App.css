@@ -1,0 +1,10 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+
+.disabledRating {
+	opacity: 0.5;
+	pointer-events: none;
+}
