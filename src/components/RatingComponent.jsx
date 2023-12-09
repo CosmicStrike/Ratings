@@ -11,7 +11,7 @@ const RatingComponent = ({
 	const onClick = (keys) => {
 		// if (!disabled)
 		// 	onRatingChange(keys + 1)
-		if(disabled)onRatingChange(keys + 1);
+		if (disabled) onRatingChange(keys + 1);
 	}
 
 	const arr = [...Array(maxRating).keys()]
@@ -24,7 +24,6 @@ const RatingComponent = ({
 		ratingRow = <span className='op'>{ratings}</span>
 	else ratingRow = <span>{ratings}</span>
 	let run = 10;
-	for (let i in run) console.log(i);
 	return (
 		ratingRow
 	)
