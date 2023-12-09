@@ -24,6 +24,7 @@ const RatingComponent = ({
 		ratingRow = <span className='op'>{ratings}</span>
 	else ratingRow = <span>{ratings}</span>
 	let run = 10;
+	let changes = 100;
 	return (
 		ratingRow
 	)
