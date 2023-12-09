@@ -9,8 +9,9 @@ const RatingComponent = ({
 }) => {
 
 	const onClick = (keys) => {
-		if (!disabled)
-			onRatingChange(keys + 1)
+		// if (!disabled)
+		// 	onRatingChange(keys + 1)
+		if(disabled)onRatingChange(keys + 1);
 	}
 
 	const arr = [...Array(maxRating).keys()]
