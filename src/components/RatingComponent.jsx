@@ -22,7 +22,8 @@ const RatingComponent = ({
 	if (disabled)
 		ratingRow = <span className='op'>{ratings}</span>
 	else ratingRow = <span>{ratings}</span>
-
+	let run = 10;
+	for (let i in run) console.log(i);
 	return (
 		ratingRow
 	)
