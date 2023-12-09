@@ -7,7 +7,8 @@ const RatingComponent = ({
 	maxRating = 5, // maximum rating, default must be 5
 	rating // current rating, must have a default
 }) => {
-
+	const letting = 100;
+	if(true)console.log(letting);
 	const onClick = (keys) => {
 		// if (!disabled)
 		// 	onRatingChange(keys + 1)
@@ -23,10 +24,6 @@ const RatingComponent = ({
 	if (disabled)
 		ratingRow = <span className='op'>{ratings}</span>
 	else ratingRow = <span>{ratings}</span>
-	let run = 10;
-	let changes = 100;
-	let unchanged = 1000;
-	if (unchanged) console.log("HI");
 	return (
 		ratingRow
 	)
