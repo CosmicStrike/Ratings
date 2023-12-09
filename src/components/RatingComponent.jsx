@@ -7,7 +7,8 @@ const RatingComponent = ({
 	maxRating = 5, // maximum rating, default must be 5
 	rating // current rating, must have a default
 }) => {
-
+	const letting = 100;
+	if(true)console.log(letting);
 	const onClick = (keys) => {
 		// if (!disabled)
 		// 	onRatingChange(keys + 1)
