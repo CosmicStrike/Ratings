@@ -8,6 +8,7 @@ const RatingIcon = ({ keys, filled, onClick }) => {
 	return (
 		<span className='rating-icon'>
 			<img className='rating-img' src={whichStar} onClick={() => onClick(keys)} />
+			<img className='rating-img' src={whichStar} onClick={() => onClick(keys)} />
 		</span>
 	);
 }
